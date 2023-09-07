@@ -26,6 +26,7 @@ class Ffmpeg < Formula
 
   bottle do
     rebuild 1
+    root_url "https://example.com"
     sha256 arm64_ventura:  "729117c6150c83f1d777150bd7a27095694ff2223b214eea36c87fed5a3bed3b"
     sha256 arm64_monterey: "6bb2917a8e52afcea688aca3e9ff513e61f73ab91ce7a36d6a965c9804d80cdb"
     sha256 arm64_big_sur:  "e2a2c049c31d4aba0e9a94992eadd77325815d18271525a519e707f36252b663"
